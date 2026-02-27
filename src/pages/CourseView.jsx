@@ -183,14 +183,6 @@ const CourseView = () => {
   );
 };
 
-const getIcon = (type) => {
-  switch (type) {
-    case 'video': return <PlayCircle size={22} />;
-    case 'pdf': return <FileText size={22} />;
-    case 'h5p': return <Layout size={22} />;
-    case 'quiz': return <GraduationCap size={22} />;
-    default: return <FileText size={22} />;
-  }
-};
+
 
 export default CourseView;
